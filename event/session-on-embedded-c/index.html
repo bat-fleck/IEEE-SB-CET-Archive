@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US" class="no-js">
+<!--<![endif]-->
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="profile" href="http://gmpg.org/xfn/11" />
+  <link rel="pingback" href="http://ieeesbcet.org/xmlrpc.php" />
+  <!-- scripts for IE8 and less  -->
+  <!--[if lt IE 9]>
+    <script src="http://ieeesbcet.org/wp-content/themes/customizr/assets/front/js/vendors/html5.js"></script>
+  <![endif]-->
+<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<title>SESSION ON EMBEDDED C &#8211; IEEE SB CET</title>
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="IEEE SB CET &raquo; Feed" href="http://ieeesbcet.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="IEEE SB CET &raquo; Comments Feed" href="http://ieeesbcet.org/comments/feed/" />
+<link rel="alternate" type="text/calendar" title="IEEE SB CET &raquo; iCal Feed" href="http://ieeesbcet.org/events/?ical=1" />
+<link rel="alternate" type="application/rss+xml" title="IEEE SB CET &raquo; SESSION ON EMBEDDED C Comments Feed" href="http://ieeesbcet.org/event/session-on-embedded-c/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/ieeesbcet.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.5"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b!==c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='theme-my-login-css'  href='http://ieeesbcet.org/wp-content/plugins/theme-my-login/theme-my-login.css?ver=6.4.9' type='text/css' media='all' />
+<link rel='stylesheet' id='czr-gfonts-css'  href='//fonts.googleapis.com/css?family=Source+Sans+Pro' type='text/css' media='all' />
+<link rel='stylesheet' id='customizr-fa-css'  href='http://ieeesbcet.org/wp-content/themes/customizr/assets/shared/fonts/fa/css/font-awesome.min.css?ver=4.0.9' type='text/css' media='all' />
+<link rel='stylesheet' id='wpsm_colorbox-font-awesome-front-css'  href='http://ieeesbcet.org/wp-content/plugins/colorbox-panels/assets/css/font-awesome/css/font-awesome.min.css?ver=4.8.5' type='text/css' media='all' />
+<link rel='stylesheet' id='wpsm_colorbox_bootstrap-front-css'  href='http://ieeesbcet.org/wp-content/plugins/colorbox-panels/assets/css/bootstrap-front.css?ver=4.8.5' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://ieeesbcet.org/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.9' type='text/css' media='all' />
+<link rel='stylesheet' id='rtec_styles-css'  href='http://ieeesbcet.org/wp-content/plugins/registrations-for-the-events-calendar/css/rtec-styles.css?ver=2.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='svt-style-css'  href='http://ieeesbcet.org/wp-content/plugins/simple-vertical-timeline/css/simple-vertical-timeline.min.css?ver=4.8.5' type='text/css' media='all' />
+<link rel='stylesheet' id='svt-linearicons-css'  href='http://ieeesbcet.org/wp-content/plugins/simple-vertical-timeline/img/linearicons/style.css?ver=4.8.5' type='text/css' media='all' />
+<link rel='stylesheet' id='wpsm_team_b-font-awesome-front-css'  href='http://ieeesbcet.org/wp-content/plugins/team-builder/assets/css/font-awesome/css/font-awesome.min.css?ver=4.8.5' type='text/css' media='all' />
+<link rel='stylesheet' id='wpsm_team_b_bootstrap-front-css'  href='http://ieeesbcet.org/wp-content/plugins/team-builder/assets/css/bootstrap-front.css?ver=4.8.5' type='text/css' media='all' />
+<link rel='stylesheet' id='wpsm_team_b_team1-css'  href='http://ieeesbcet.org/wp-content/plugins/team-builder/assets/css/team1.css?ver=4.8.5' type='text/css' media='all' />
+<link rel='stylesheet' id='wpsm_team_b_team2-css'  href='http://ieeesbcet.org/wp-content/plugins/team-builder/assets/css/team2.css?ver=4.8.5' type='text/css' media='all' />
+<link rel='stylesheet' id='wplc-font-awesome-css'  href='http://ieeesbcet.org/wp-content/plugins/wp-live-chat-support/css/font-awesome.min.css?ver=4.8.5' type='text/css' media='all' />
+<link rel='stylesheet' id='wplc-style-css'  href='http://ieeesbcet.org/wp-content/plugins/wp-live-chat-support/css/wplcstyle.css?ver=7.1.06' type='text/css' media='all' />
+<style id='wplc-style-inline-css' type='text/css'>
+#wp-live-chat-header { background:url('http://ieeesbcet.org/wp-content/plugins/wp-live-chat-support/images/iconRetina.png') no-repeat; background-size: cover; }  #wp-live-chat-header.active { background:url('http://ieeesbcet.org/wp-content/plugins/wp-live-chat-support/images/iconCloseRetina.png') no-repeat; background-size: cover; } #wp-live-chat-4 { background:url('http://ieeesbcet.org/wp-content/plugins/wp-live-chat-support/images/bg/social.jpg') repeat; background-size: cover; }
+</style>
+<link rel='stylesheet' id='wplc-theme-palette-1-css'  href='http://ieeesbcet.org/wp-content/plugins/wp-live-chat-support/css/themes/theme-1.css?ver=7.1.06' type='text/css' media='all' />
+<link rel='stylesheet' id='wplc-theme-modern-css'  href='http://ieeesbcet.org/wp-content/plugins/wp-live-chat-support/css/themes/modern.css?ver=7.1.06' type='text/css' media='all' />
+<link rel='stylesheet' id='wplc-theme-position-css'  href='http://ieeesbcet.org/wp-content/plugins/wp-live-chat-support/css/themes/position-bottom-right.css?ver=7.1.06' type='text/css' media='all' />
+<link rel='stylesheet' id='wpos-slick-style-css'  href='http://ieeesbcet.org/wp-content/plugins/wp-responsive-recent-post-slider/assets/css/slick.css?ver=1.3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wppsac-public-style-css'  href='http://ieeesbcet.org/wp-content/plugins/wp-responsive-recent-post-slider/assets/css/recent-post-style.css?ver=1.3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='tribe-events-custom-jquery-styles-css'  href='http://ieeesbcet.org/wp-content/plugins/the-events-calendar/vendor/jquery/smoothness/jquery-ui-1.8.23.custom.css?ver=4.8.5' type='text/css' media='all' />
+<link rel='stylesheet' id='tribe-events-full-calendar-style-css'  href='http://ieeesbcet.org/wp-content/plugins/the-events-calendar/src/resources/css/tribe-events-full.min.css?ver=4.6.2' type='text/css' media='all' />
+<link rel='stylesheet' id='tribe-events-calendar-style-css'  href='http://ieeesbcet.org/wp-content/plugins/the-events-calendar/src/resources/css/tribe-events-theme.min.css?ver=4.6.2' type='text/css' media='all' />
+<link rel='stylesheet' id='tribe-events-calendar-full-mobile-style-css'  href='http://ieeesbcet.org/wp-content/plugins/the-events-calendar/src/resources/css/tribe-events-full-mobile.min.css?ver=4.6.2' type='text/css' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='tribe-events-calendar-mobile-style-css'  href='http://ieeesbcet.org/wp-content/plugins/the-events-calendar/src/resources/css/tribe-events-theme-mobile.min.css?ver=4.6.2' type='text/css' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='customizr-flickity-css'  href='http://ieeesbcet.org/wp-content/themes/customizr/assets/front/css/flickity.min.css?ver=4.0.9' type='text/css' media='all' />
+<link rel='stylesheet' id='customizr-magnific-css'  href='http://ieeesbcet.org/wp-content/themes/customizr/assets/front/css/magnific-popup.min.css?ver=4.0.9' type='text/css' media='all' />
+<link rel='stylesheet' id='customizr-scrollbar-css'  href='http://ieeesbcet.org/wp-content/themes/customizr/assets/front/css/jquery.mCustomScrollbar.min.css?ver=4.0.9' type='text/css' media='all' />
+<link rel='stylesheet' id='customizr-main-css'  href='http://ieeesbcet.org/wp-content/themes/customizr/assets/front/css/style.min.css?ver=4.0.9' type='text/css' media='all' />
+<style id='customizr-main-inline-css' type='text/css'>
+::-moz-selection{background-color:#006699}::selection{background-color:#006699}a,.btn-skin:active,.btn-skin:focus,.btn-skin:hover,.btn-skin.inverted,.grid-container__classic .post-type__icon,.post-type__icon:hover .icn-format,.grid-container__classic .post-type__icon:hover .icn-format,[class*='grid-container__'] .entry-title a.czr-title:hover,input[type=checkbox]:checked::before{color:#006699}.czr-css-loader > div ,.btn-skin,.btn-skin:active,.btn-skin:focus,.btn-skin:hover,.btn-skin-h-dark,.btn-skin-h-dark.inverted:active,.btn-skin-h-dark.inverted:focus,.btn-skin-h-dark.inverted:hover,.tc-header.border-top{border-color:#006699}[class*='grid-container__'] .entry-title a:hover::after,.grid-container__classic .post-type__icon,.btn-skin,.btn-skin.inverted:active,.btn-skin.inverted:focus,.btn-skin.inverted:hover,.btn-skin-h-dark,.btn-skin-h-dark.inverted:active,.btn-skin-h-dark.inverted:focus,.btn-skin-h-dark.inverted:hover,.sidebar .widget-title::after,input[type=radio]:checked::before{background-color:#006699}.btn-skin-light:active,.btn-skin-light:focus,.btn-skin-light:hover,.btn-skin-light.inverted{color:#0099e6}input:not([type='submit']):not([type='button']):not([type='number']):not([type='checkbox']):not([type='radio']):focus,textarea:focus,.btn-skin-light,.btn-skin-light.inverted,.btn-skin-light:active,.btn-skin-light:focus,.btn-skin-light:hover,.btn-skin-light.inverted:active,.btn-skin-light.inverted:focus,.btn-skin-light.inverted:hover{border-color:#0099e6}.btn-skin-light,.btn-skin-light.inverted:active,.btn-skin-light.inverted:focus,.btn-skin-light.inverted:hover{background-color:#0099e6}.btn-skin-lightest:active,.btn-skin-lightest:focus,.btn-skin-lightest:hover,.btn-skin-lightest.inverted{color:#00aaff}.btn-skin-lightest,.btn-skin-lightest.inverted,.btn-skin-lightest:active,.btn-skin-lightest:focus,.btn-skin-lightest:hover,.btn-skin-lightest.inverted:active,.btn-skin-lightest.inverted:focus,.btn-skin-lightest.inverted:hover{border-color:#00aaff}.btn-skin-lightest,.btn-skin-lightest.inverted:active,.btn-skin-lightest.inverted:focus,.btn-skin-lightest.inverted:hover{background-color:#00aaff}.pagination,a:hover,a:focus,a:active,.btn-skin-dark:active,.btn-skin-dark:focus,.btn-skin-dark:hover,.btn-skin-dark.inverted,.btn-skin-dark-oh:active,.btn-skin-dark-oh:focus,.btn-skin-dark-oh:hover,.post-info a:not(.btn):hover,.grid-container__classic .post-type__icon .icn-format,[class*='grid-container__'] .hover .entry-title a,.widget-area a:not(.btn):hover,a.czr-format-link:hover,.format-link.hover a.czr-format-link,button[type=submit]:hover,button[type=submit]:active,button[type=submit]:focus,input[type=submit]:hover,input[type=submit]:active,input[type=submit]:focus,.tabs .nav-link:hover,.tabs .nav-link.active,.tabs .nav-link.active:hover,.tabs .nav-link.active:focus{color:#003d5c}.grid-container__classic.tc-grid-border .grid__item,.btn-skin-dark,.btn-skin-dark.inverted,button[type=submit],input[type=submit],.btn-skin-dark:active,.btn-skin-dark:focus,.btn-skin-dark:hover,.btn-skin-dark.inverted:active,.btn-skin-dark.inverted:focus,.btn-skin-dark.inverted:hover,.btn-skin-h-dark:active,.btn-skin-h-dark:focus,.btn-skin-h-dark:hover,.btn-skin-h-dark.inverted,.btn-skin-h-dark.inverted,.btn-skin-h-dark.inverted,.btn-skin-dark-oh:active,.btn-skin-dark-oh:focus,.btn-skin-dark-oh:hover,.btn-skin-dark-oh.inverted:active,.btn-skin-dark-oh.inverted:focus,.btn-skin-dark-oh.inverted:hover,button[type=submit]:hover,button[type=submit]:active,button[type=submit]:focus,input[type=submit]:hover,input[type=submit]:active,input[type=submit]:focus{border-color:#003d5c}.btn-skin-dark,.btn-skin-dark.inverted:active,.btn-skin-dark.inverted:focus,.btn-skin-dark.inverted:hover,.btn-skin-h-dark:active,.btn-skin-h-dark:focus,.btn-skin-h-dark:hover,.btn-skin-h-dark.inverted,.btn-skin-h-dark.inverted,.btn-skin-h-dark.inverted,.btn-skin-dark-oh.inverted:active,.btn-skin-dark-oh.inverted:focus,.btn-skin-dark-oh.inverted:hover,.grid-container__classic .post-type__icon:hover,button[type=submit],input[type=submit],.widget-area .widget:not(.widget_shopping_cart) a:not(.btn):before,[class*='grid-container__'] .hover .entry-title a::after,a.czr-format-link::before,.comment-author a::before,.comment-link::before,.tabs .nav-link.active::before{background-color:#003d5c}.btn-skin-dark-shaded:active,.btn-skin-dark-shaded:focus,.btn-skin-dark-shaded:hover,.btn-skin-dark-shaded.inverted{background-color:rgba(0,61,92,0.2)}.btn-skin-dark-shaded,.btn-skin-dark-shaded.inverted:active,.btn-skin-dark-shaded.inverted:focus,.btn-skin-dark-shaded.inverted:hover{background-color:rgba(0,61,92,0.8)}
+.tc-header.border-top { border-top-width: 5px; border-top-style: solid }
+.tc-singular-thumbnail-wrapper .entry-media__wrapper {
+                max-height: 250px;
+                height :250px
+              }
+
+#czr-push-footer { display: none; visibility: hidden; }
+        .czr-sticky-footer #czr-push-footer.sticky-footer-enabled { display: block; }
+        
+</style>
+<link rel='stylesheet' id='customizr-ms-respond-css'  href='http://ieeesbcet.org/wp-content/themes/customizr/assets/front/css/style-modular-scale.min.css?ver=4.0.9' type='text/css' media='all' />
+<script type='text/javascript' src='http://ieeesbcet.org/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://ieeesbcet.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://ieeesbcet.org/wp-content/plugins/wp-live-chat-support/js/wplc_server.js?ver=7.1.06'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wplc_restapi_enabled = "1";
+var wplc_restapi_token = "a1ef612fd21ba7634119c3425fa429d0";
+var wplc_restapi_endpoint = "http:\/\/ieeesbcet.org\/wp-json\/wp_live_chat_support\/v1";
+var wplc_is_mobile = "false";
+var wplc_ajaxurl = "http:\/\/ieeesbcet.org\/wp-admin\/admin-ajax.php";
+var wplc_ajaxurl_site = "http:\/\/ieeesbcet.org\/wp-admin\/admin-ajax.php";
+var wplc_nonce = "c7b87efe33";
+var wplc_plugin_url = "http:\/\/ieeesbcet.org\/wp-content\/plugins";
+var wplc_preload_images = ["http:\/\/ieeesbcet.org\/wp-content\/plugins\/wp-live-chat-support\/images\/iconRetina.png","http:\/\/ieeesbcet.org\/wp-content\/plugins\/wp-live-chat-support\/images\/iconCloseRetina.png"];
+var wplc_show_chat_detail = {"name":"","avatar":"","date":"","time":""};
+var wplc_agent_data = {"99":{"name":"Sarathchandran S","md5":"1d1ed48f9dbf1b2b7f4ebe4d2eda2cde"}};
+var wplc_error_messages = {"valid_name":"Please enter your name","valid_email":"Please enter your email address","server_connection_lost":"Connection to server lost. Please reload this page. Error: ","chat_ended_by_operator":"The chat has been ended by the operator.","empty_message":"Please enter a message"};
+var wplc_enable_ding = "1";
+var wplc_filter_run_override = "0";
+var wplc_offline_msg = "Sending message...";
+var wplc_offline_msg3 = "Thank you for your message. We will be in contact soon.";
+var wplc_welcome_msg = "Please standby for our volunteer. While you wait for the volunteer you may type your message.";
+var wplc_localized_string_is_typing = "agent is typing...";
+var wplc_localized_string_is_typing_single = " is typing...";
+var wplc_extra_data = {"object_switch":"1"};
+var wplc_gravatar_image = [""];
+var wplc_hide_chat = null;
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://ieeesbcet.org/wp-content/plugins/wp-live-chat-support/js/wplc_u.js?ver=7.1.06'></script>
+<script type='text/javascript' src='http://ieeesbcet.org/wp-content/plugins/wp-live-chat-support/js/md5.js?ver=7.1.06'></script>
+<script type='text/javascript' src='http://ieeesbcet.org/wp-content/plugins/wp-live-chat-support/js/themes/modern.js?ver=7.1.06'></script>
+<script type='text/javascript' src='http://ieeesbcet.org/wp-content/plugins/wp-live-chat-support/js/jquery-cookie.js?ver=4.8.5'></script>
+<script type='text/javascript' src='http://ieeesbcet.org/wp-content/plugins/colorbox-panels/assets/js/masonry.pkgd.min.js?ver=4.8.5'></script>
+<script type='text/javascript' src='http://ieeesbcet.org/wp-content/plugins/colorbox-panels/assets/js/jcolumn.min.js?ver=4.8.5'></script>
+<script type='text/javascript' src='http://ieeesbcet.org/wp-content/plugins/simple-vertical-timeline/js/svt-animation.min.js?ver=4.8.5'></script>
+<script type='text/javascript' src='http://ieeesbcet.org/wp-content/plugins/the-events-calendar/vendor/jquery-resize/jquery.ba-resize.min.js?ver=1.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var tribe_js_config = {"permalink_settings":"\/%year%\/%monthnum%\/%day%\/%postname%\/","events_post_type":"tribe_events","events_base":"http:\/\/ieeesbcet.org\/events\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://ieeesbcet.org/wp-content/plugins/the-events-calendar/src/resources/js/tribe-events.min.js?ver=4.6.2'></script>
+<script type='text/javascript' src='http://ieeesbcet.org/wp-content/themes/customizr/assets/front/js/libs/modernizr.min.js?ver=4.0.9'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var CZRParams = {"_disabled":[],"centerSliderImg":"1","SmoothScroll":{"Enabled":true,"Options":{"touchpadSupport":false}},"anchorSmoothScroll":"easeOutExpo","anchorSmoothScrollExclude":{"simple":["[class*=edd]",".carousel-control","[data-toggle=\"modal\"]","[data-toggle=\"dropdown\"]","[data-toggle=\"tooltip\"]","[data-toggle=\"popover\"]","[data-toggle=\"collapse\"]","[data-toggle=\"tab\"]","[class*=upme]","[class*=um-]"],"deep":{"classes":[],"ids":[]}},"timerOnScrollAllBrowsers":"1","centerAllImg":"1","HasComments":"","LoadModernizr":"1","stickyHeader":"","extLinksStyle":"","extLinksTargetExt":"","extLinksSkipSelectors":{"classes":["btn","button"],"ids":[]},"dropcapEnabled":"","dropcapWhere":{"post":"","page":""},"dropcapMinWords":"","dropcapSkipSelectors":{"tags":["IMG","IFRAME","H1","H2","H3","H4","H5","H6","BLOCKQUOTE","UL","OL"],"classes":["btn"],"id":[]},"imgSmartLoadEnabled":"1","imgSmartLoadOpts":{"parentSelectors":["[class*=grid-container], .article-container",".__before_main_wrapper",".widget-front",".post-related-articles",".tc-singular-thumbnail-wrapper"],"opts":{"excludeImg":[".tc-holder-img"]}},"pluginCompats":[],"isWPMobile":"","menuStickyUserSettings":{"desktop":"stick_up","mobile":"stick_always"},"adminAjaxUrl":"http:\/\/ieeesbcet.org\/wp-admin\/admin-ajax.php","ajaxUrl":"http:\/\/ieeesbcet.org\/?czrajax=1","frontNonce":{"id":"CZRFrontNonce","handle":"d5ef05e67b"},"isDevMode":"","isModernStyle":"1","i18n":{"Permanently dismiss":"Permanently dismiss"},"frontNotifications":{"welcome":{"enabled":false,"content":"","dismissAction":"dismiss_welcome_note_front"}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://ieeesbcet.org/wp-content/themes/customizr/assets/front/js/tc-scripts.min.js?ver=4.0.9'></script>
+<link rel='https://api.w.org/' href='http://ieeesbcet.org/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://ieeesbcet.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://ieeesbcet.org/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='WORKSHOP ON CONTROL OF MOBILE ROBOTS:' href='http://ieeesbcet.org/event/workshop-on-control-of-mobile-robots/' />
+<link rel='next' title='SWARM ROBOTICS SERIES SESSION 1:PYTHON' href='http://ieeesbcet.org/event/swarm-robotics-series-session-1python/' />
+<meta name="generator" content="WordPress 4.8.5" />
+<link rel="canonical" href="http://ieeesbcet.org/event/session-on-embedded-c/" />
+<link rel='shortlink' href='http://ieeesbcet.org/?p=2072' />
+<link rel="alternate" type="application/json+oembed" href="http://ieeesbcet.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fieeesbcet.org%2Fevent%2Fsession-on-embedded-c%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://ieeesbcet.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fieeesbcet.org%2Fevent%2Fsession-on-embedded-c%2F&#038;format=xml" />
+
+        <script type="text/javascript">
+                    var wplc_ajaxurl = 'http://ieeesbcet.org/wp-admin/admin-ajax.php';
+                    var wplc_nonce = 'c7b87efe33';
+        </script>
+
+
+
+
+        <meta name="tec-api-version" content="v1"><meta name="tec-api-origin" content="http://ieeesbcet.org"><link rel="https://theeventscalendar.com/" href="http://ieeesbcet.org/wp-json/tribe/events/v1/events/2072" />		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<script type="application/ld+json">
+[{"@context":"http://schema.org","@type":"Event","name":"SESSION ON EMBEDDED C","description":"","url":"http://ieeesbcet.org/event/session-on-embedded-c/","startDate":"2017-08-07 10:30:00","endDate":"2017-08-07 12:30:00","location":{"@type":"Place","name":"CET,Trivandrum","description":"","url":false,"address":{"@type":"PostalAddress","streetAddress":"Sreekariyam","addressLocality":"TVM","addressRegion":"Kerala","addressCountry":"India"},"telephone":"","sameAs":""},"organizer":{"@type":"Person","name":"IEEE RAS CET","description":"","url":false,"telephone":"","email":"","sameAs":""}}]
+</script><link rel="icon" href="http://ieeesbcet.org/wp-content/uploads/2017/09/cropped-ieee-transparent-32x32.png" sizes="32x32" />
+<link rel="icon" href="http://ieeesbcet.org/wp-content/uploads/2017/09/cropped-ieee-transparent-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="http://ieeesbcet.org/wp-content/uploads/2017/09/cropped-ieee-transparent-180x180.png" />
+<meta name="msapplication-TileImage" content="http://ieeesbcet.org/wp-content/uploads/2017/09/cropped-ieee-transparent-270x270.png" />
+</head>
+
+  <body class="tribe_events-template-default single single-tribe_events postid-2072 tribe-no-js tribe-filter-live czr-link-hover-underline header-skin-light footer-skin-light czr-no-sidebar tc-center-images czr-sticky-footer events-single tribe-events-style-full tribe-events-style-theme elementor-default tribe-theme-customizr page-template-index-php singular" itemscope itemtype="http://schema.org/WebPage">
+    
+    
+    <div id="tc-page-wrap">
+
+      <header class="tpnav-header__header tc-header sl-logo_left sticky-brand-shrink-on sticky-transparent border-top czr-submenu-fade czr-submenu-move" role="banner" data-czr-model_id="header" data-czr-template="templates/parts/header">
+  <div class="header-navbars__wrapper ">
+
+    <div class="container-fluid topnav-navbars__container">
+          <div class="topbar-navbar__wrapper row flex-row flex-lg-nowrap justify-content-end align-items-center hidden-md-down" data-czr-model_id="topbar_wrapper" data-czr-template="templates/parts/header/topbar_wrapper">
+      <div class="topbar-nav__container col col-auto">
+      <nav id="topbar-nav" class="topbar-nav__nav ">
+        <div class="nav__menu-wrapper topbar-nav__menu-wrapper czr-open-on-hover" data-czr-model_id="topbar_menu" data-czr-template="templates/parts/header/parts/menu">
+  <ul id="topbar-menu" class="topbar-nav__menu regular-nav nav__menu nav"><li id="menu-item-1948" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1948"><a href="http://www.ieee.org/index.html"><span>IEEE.org</span></a></li>
+<li id="menu-item-1952" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1952"><a href="https://www.ieee.org/Loginforms/myIEEE/login.html"><span>myIEEE</span></a></li>
+<li id="menu-item-1949" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1949"><a href="http://ieeexplore.ieee.org/Xplore/home.jsp"><span>IEEE Xplore Digital Library</span></a></li>
+<li id="menu-item-1950" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1950"><a href="https://spectrum.ieee.org/"><span>IEEE Spectrum</span></a></li>
+<li id="menu-item-1951" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1951"><a href="http://www.ieeer10.org/"><span>IEEE Region 10</span></a></li>
+<li id="menu-item-1953" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1953"><a href="https://ieeekerala.org/"><span>IEEE Kerala Section</span></a></li>
+</ul></div>      </nav>
+    </div>
+          <div class="topbar-nav__socials social-links col col-auto">
+      <ul class="socials " data-czr-model_id="social_block" data-czr-template="templates/parts/modules/common/social_block">
+  <li><a rel="nofollow" class="social-icon icon-facebook-official"  title="Follow us on Facebook-official" aria-label="Follow us on Facebook-official" href="https://www.facebook.com/IEEE.SB.CET/"  target="_blank"  style="color:#1e73be"><i class="fa fa-facebook-official"></i></a></li> <li><a rel="nofollow" class="social-icon icon-twitter"  title="Follow us on Twitter" aria-label="Follow us on Twitter" href="https://twitter.com/IEEE_SB_CET"  target="_blank"  style="color:#1e73be"><i class="fa fa-twitter"></i></a></li> <li><a rel="nofollow" class="social-icon icon-instagram"  title="Follow us on Instagram" aria-label="Follow us on Instagram" href="https://www.instagram.com/IEEE_SB_CET/"  target="_blank"  style="color:#dd9933"><i class="fa fa-instagram"></i></a></li></ul>
+    </div>
+  </div>          <div class="primary-navbar__wrapper row align-items-center flex-lg-row hidden-md-down has-horizontal-menu desktop-sticky" data-czr-model_id="navbar_wrapper" data-czr-template="templates/parts/header/navbar_wrapper">
+  <div class="branding__container col col-auto" data-czr-model_id="branding_wrapper" data-czr-template="templates/parts/header/parts/branding_wrapper">
+  <div class="branding align-items-center flex-column tagline-below">
+  <h1 class="navbar-brand align-self-start " data-czr-model_id="title" data-czr-template="templates/parts/header/parts/title">
+  <a class="navbar-brand-sitename  czr-underline" href="http://ieeesbcet.org/"  title="IEEE SB CET | Official website of IEEE Student Branch of CET">
+    <span>IEEE SB CET</span>
+  </a>
+</h1>
+
+<span class="header-tagline " data-czr-model_id="tagline" data-czr-template="templates/parts/header/parts/tagline">
+  Official website of IEEE Student Branch of CET</span>
+
+  </div>
+</div>
+  <div class="primary-nav__container justify-content-lg-around col col-lg-auto flex-lg-column" data-czr-model_id="nav_container" data-czr-template="templates/parts/header/parts/nav_container">
+  <div class="primary-nav__wrapper flex-lg-row align-items-center justify-content-end">
+              <nav class="primary-nav__nav col" id="primary-nav">
+          <div class="nav__menu-wrapper primary-nav__menu-wrapper justify-content-end czr-open-on-hover" data-czr-model_id="navbar_primary_menu" data-czr-template="templates/parts/header/parts/menu">
+  <ul id="primary-nav" class="primary-nav__menu regular-nav nav__menu nav"><li id="menu-item-1701" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1701"><a href="http://ieeesbcet.org/"><span>Home</span></a></li>
+<li id="menu-item-1973" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children czr-dropdown menu-item-1973"><a data-toggle="czr-dropdown" aria-haspopup="true" aria-expanded="false" href="http://ieeesbcet.org/aboutieeesbcet/"><span>About Us</span><span class="caret__dropdown-toggler"><i class="icn-down-small"></i></span></a>
+<ul class="dropdown-menu czr-dropdown-menu">
+	<li id="menu-item-1975" class="menu-item menu-item-type-post_type menu-item-object-page dropdown-item menu-item-1975"><a href="http://ieeesbcet.org/aboutieeesbcet/"><span>About IEEE SB CET</span></a></li>
+	<li id="menu-item-1978" class="menu-item menu-item-type-post_type menu-item-object-page dropdown-item menu-item-1978"><a href="http://ieeesbcet.org/about-ieee/"><span>About IEEE</span></a></li>
+	<li id="menu-item-1981" class="menu-item menu-item-type-post_type menu-item-object-page dropdown-item menu-item-1981"><a href="http://ieeesbcet.org/ieee-region-10/"><span>About IEEE Region 10</span></a></li>
+	<li id="menu-item-5459" class="menu-item menu-item-type-custom menu-item-object-custom dropdown-item menu-item-5459"><a href="http://ieeesbcet.org/about-ieee-kerala-section/"><span>About Kerala Section</span></a></li>
+</ul>
+</li>
+<li id="menu-item-1700" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1700"><a href="http://ieeesbcet.org/execom2017/"><span>Execom 2017</span></a></li>
+<li id="menu-item-2014" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-2014"><a href="http://ieeesbcet.org/blog/"><span>Blog</span></a></li>
+<li id="menu-item-1809" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children czr-dropdown menu-item-1809"><a data-toggle="czr-dropdown" aria-haspopup="true" aria-expanded="false" href="#"><span>Society</span><span class="caret__dropdown-toggler"><i class="icn-down-small"></i></span></a>
+<ul class="dropdown-menu czr-dropdown-menu">
+	<li id="menu-item-1696" class="menu-item menu-item-type-post_type menu-item-object-page dropdown-item menu-item-1696"><a href="http://ieeesbcet.org/communication-society/"><span>ComSoc</span></a></li>
+	<li id="menu-item-1710" class="menu-item menu-item-type-post_type menu-item-object-page dropdown-item menu-item-1710"><a href="http://ieeesbcet.org/cs/"><span>Computer Society</span></a></li>
+	<li id="menu-item-1717" class="menu-item menu-item-type-post_type menu-item-object-page dropdown-item menu-item-1717"><a href="http://ieeesbcet.org/pes/"><span>PES</span></a></li>
+	<li id="menu-item-1714" class="menu-item menu-item-type-post_type menu-item-object-page dropdown-item menu-item-1714"><a href="http://ieeesbcet.org/ras/"><span>RAS</span></a></li>
+	<li id="menu-item-1720" class="menu-item menu-item-type-post_type menu-item-object-page dropdown-item menu-item-1720"><a href="http://ieeesbcet.org/sps/"><span>SPS</span></a></li>
+	<li id="menu-item-1723" class="menu-item menu-item-type-post_type menu-item-object-page dropdown-item menu-item-1723"><a href="http://ieeesbcet.org/wie/"><span>WIE</span></a></li>
+</ul>
+</li>
+<li id="menu-item-1807" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1807"><a href="http://ieeesbcet.org/event/"><span>Events</span></a></li>
+<li id="menu-item-2390" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children czr-dropdown menu-item-2390"><a data-toggle="czr-dropdown" aria-haspopup="true" aria-expanded="false" href="http://ieeesbcet.org/membership/"><span>Membership</span><span class="caret__dropdown-toggler"><i class="icn-down-small"></i></span></a>
+<ul class="dropdown-menu czr-dropdown-menu">
+	<li id="menu-item-4419" class="menu-item menu-item-type-custom menu-item-object-custom dropdown-item menu-item-4419"><a href="http://ieeesbcet.org/membership/"><span>About</span></a></li>
+	<li id="menu-item-4417" class="menu-item menu-item-type-post_type menu-item-object-page dropdown-item menu-item-4417"><a href="http://ieeesbcet.org/membership-form/"><span>Membership Form</span></a></li>
+</ul>
+</li>
+<li id="menu-item-2393" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2393"><a href="http://ieeesbcet.org/achievements/"><span>Achievements</span></a></li>
+<li id="menu-item-5389" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5389"><a href="http://ieeesbcet.org/contact-us/"><span>Contact Us</span></a></li>
+<li id="menu-item-1695" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children czr-dropdown menu-item-1695"><a data-toggle="czr-dropdown" aria-haspopup="true" aria-expanded="false" href="http://ieeesbcet.org/wp-admin"><span>Login</span><span class="caret__dropdown-toggler"><i class="icn-down-small"></i></span></a>
+<ul class="dropdown-menu czr-dropdown-menu">
+	<li id="menu-item-1784" class="menu-item menu-item-type-post_type menu-item-object-page dropdown-item menu-item-1784"><a href="http://ieeesbcet.org/login/"><span>Log In</span></a></li>
+	<li id="menu-item-1788" class="menu-item menu-item-type-post_type menu-item-object-page dropdown-item menu-item-1788"><a href="http://ieeesbcet.org/register/"><span>Register</span></a></li>
+	<li id="menu-item-1790" class="menu-item menu-item-type-post_type menu-item-object-page dropdown-item menu-item-1790"><a href="http://ieeesbcet.org/lostpassword/"><span>Lost Password</span></a></li>
+	<li id="menu-item-1792" class="menu-item menu-item-type-post_type menu-item-object-page dropdown-item menu-item-1792"><a href="http://ieeesbcet.org/resetpass/"><span>Reset Password</span></a></li>
+</ul>
+</li>
+</ul></div>        </nav>
+    <div class="primary-nav__utils nav__utils col-auto" data-czr-model_id="primary_nav_utils" data-czr-template="templates/parts/header/parts/primary_nav_utils">
+    <ul class="nav utils flex-row flex-nowrap regular-nav">
+      <li class="primary-nav__search" data-czr-model_id="desktop_primary_search" data-czr-template="templates/parts/header/parts/desktop_search">
+  <a href="#" class="desktop_search__link search-toggle_btn czr-overlay-toggle_btn"><span class="sr-only">Search</span><i class="icn-search"></i></a>
+</li>    </ul>
+</div>  </div>
+</div>
+</div>          <div class="mobile-navbar__wrapper row align-items-center hidden-lg-up mobile-sticky" data-czr-model_id="mobile_navbar_wrapper" data-czr-template="templates/parts/header/mobile_navbar_wrapper">
+  <div class="branding__container col col-auto justify-content-between align-items-center" data-czr-model_id="mobile_branding_wrapper" data-czr-template="templates/parts/header/parts/mobile_branding_wrapper">
+  <div class="branding flex-column">
+    <h1 class="navbar-brand align-self-start " data-czr-model_id="title" data-czr-template="templates/parts/header/parts/title">
+  <a class="navbar-brand-sitename  czr-underline" href="http://ieeesbcet.org/"  title="IEEE SB CET | Official website of IEEE Student Branch of CET">
+    <span>IEEE SB CET</span>
+  </a>
+</h1>
+
+<span class="header-tagline " data-czr-model_id="tagline" data-czr-template="templates/parts/header/parts/tagline">
+  Official website of IEEE Student Branch of CET</span>
+
+  </div>
+  <div class="mobile-utils__wrapper nav__utils">
+    <ul class="nav utils row flex-row flex-nowrap">
+      <li class="hamburger-toggler__container " data-czr-model_id="menu_button" data-czr-template="templates/parts/header/parts/menu_button">
+  <a href="#" class="ham-toggler-menu collapsed" data-toggle="collapse" data-target="#mobile-nav"><div class="ham__toggler-span-wrapper"><span class="line line-1"></span><span class="line line-2"></span><span class="line line-3"></span></div></a>
+</li>
+    </ul>
+  </div>
+</div>
+  <div class="mobile-nav__container col-12 " data-czr-model_id="mobile_nav_container" data-czr-template="templates/parts/header/parts/mobile_nav_container">
+   <nav class="mobile-nav__nav collapse flex-column col" id="mobile-nav">
+    <div class="mobile-search__container primary-nav__search">
+  <div class="search-form__container " data-czr-model_id="searchform" data-czr-template="templates/parts/modules/search/searchform">
+  <form action="http://ieeesbcet.org/" method="get" class="czr-form search-form">
+    <div class="form-group czr-focus">
+            <label for="s-5a7a35b6725f8" id="lsearch-5a7a35b6725f8"><span>Search</span><i class="icn-search"></i><i class="icn-close"></i></label>
+      <input id="s-5a7a35b6725f8" class="form-control czr-search-field" name="s" type="text" value="" aria-describedby="lsearch-5a7a35b6725f8" title="Search &hellip;">
+    </div>
+  </form>
+</div></div><div class="nav__menu-wrapper mobile-nav__menu-wrapper czr-open-on-hover" data-czr-model_id="mobile_menu" data-czr-template="templates/parts/header/parts/menu">
+  <ul id="mobile-nav-menu" class="mobile-nav__menu vertical-nav nav__menu flex-column nav"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1701"><a href="http://ieeesbcet.org/"><span>Home</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children czr-dropdown menu-item-1973"><a data-toggle="czr-dropdown" aria-haspopup="true" aria-expanded="false" href="http://ieeesbcet.org/aboutieeesbcet/"><span>About Us</span><span class="caret__dropdown-toggler"><i class="icn-down-small"></i></span></a>
+<ul class="dropdown-menu czr-dropdown-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page dropdown-item menu-item-1975"><a href="http://ieeesbcet.org/aboutieeesbcet/"><span>About IEEE SB CET</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page dropdown-item menu-item-1978"><a href="http://ieeesbcet.org/about-ieee/"><span>About IEEE</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page dropdown-item menu-item-1981"><a href="http://ieeesbcet.org/ieee-region-10/"><span>About IEEE Region 10</span></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom dropdown-item menu-item-5459"><a href="http://ieeesbcet.org/about-ieee-kerala-section/"><span>About Kerala Section</span></a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1700"><a href="http://ieeesbcet.org/execom2017/"><span>Execom 2017</span></a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-2014"><a href="http://ieeesbcet.org/blog/"><span>Blog</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children czr-dropdown menu-item-1809"><a data-toggle="czr-dropdown" aria-haspopup="true" aria-expanded="false" href="#"><span>Society</span><span class="caret__dropdown-toggler"><i class="icn-down-small"></i></span></a>
+<ul class="dropdown-menu czr-dropdown-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page dropdown-item menu-item-1696"><a href="http://ieeesbcet.org/communication-society/"><span>ComSoc</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page dropdown-item menu-item-1710"><a href="http://ieeesbcet.org/cs/"><span>Computer Society</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page dropdown-item menu-item-1717"><a href="http://ieeesbcet.org/pes/"><span>PES</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page dropdown-item menu-item-1714"><a href="http://ieeesbcet.org/ras/"><span>RAS</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page dropdown-item menu-item-1720"><a href="http://ieeesbcet.org/sps/"><span>SPS</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page dropdown-item menu-item-1723"><a href="http://ieeesbcet.org/wie/"><span>WIE</span></a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1807"><a href="http://ieeesbcet.org/event/"><span>Events</span></a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children czr-dropdown menu-item-2390"><a data-toggle="czr-dropdown" aria-haspopup="true" aria-expanded="false" href="http://ieeesbcet.org/membership/"><span>Membership</span><span class="caret__dropdown-toggler"><i class="icn-down-small"></i></span></a>
+<ul class="dropdown-menu czr-dropdown-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom dropdown-item menu-item-4419"><a href="http://ieeesbcet.org/membership/"><span>About</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page dropdown-item menu-item-4417"><a href="http://ieeesbcet.org/membership-form/"><span>Membership Form</span></a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2393"><a href="http://ieeesbcet.org/achievements/"><span>Achievements</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5389"><a href="http://ieeesbcet.org/contact-us/"><span>Contact Us</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children czr-dropdown menu-item-1695"><a data-toggle="czr-dropdown" aria-haspopup="true" aria-expanded="false" href="http://ieeesbcet.org/wp-admin"><span>Login</span><span class="caret__dropdown-toggler"><i class="icn-down-small"></i></span></a>
+<ul class="dropdown-menu czr-dropdown-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page dropdown-item menu-item-1784"><a href="http://ieeesbcet.org/login/"><span>Log In</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page dropdown-item menu-item-1788"><a href="http://ieeesbcet.org/register/"><span>Register</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page dropdown-item menu-item-1790"><a href="http://ieeesbcet.org/lostpassword/"><span>Lost Password</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page dropdown-item menu-item-1792"><a href="http://ieeesbcet.org/resetpass/"><span>Reset Password</span></a></li>
+</ul>
+</li>
+</ul></div>  </nav>
+</div></div>    </div>
+
+  </div>
+</header>
+
+
+  
+    <div id="main-wrapper" class="section">
+
+                      
+
+          <div class="czr-hot-crumble container page-breadcrumbs" role="navigation" data-czr-model_id="breadcrumb" data-czr-template="templates/parts/modules/common/breadcrumb">
+  <div class="row">
+        <nav class="breadcrumbs col-12" itemprop="breadcrumb"><span class="trail-begin"><a href="http://ieeesbcet.org" title="IEEE SB CET" rel="home" class="trail-begin">Home</a></span> <span class="sep">&raquo;</span> <a href="http://ieeesbcet.org/events/" title="Events">Events</a> <span class="sep">&raquo;</span> <span class="trail-end">SESSION ON EMBEDDED C</span></nav>  </div>
+</div>
+          <div class="container" role="main">
+
+            
+            <div class="flex-row row column-content-wrapper">
+
+                
+                <div id="content" class="col-12 article-container">
+
+                  <article id="page-0" class="post-0 page type-page status-draft hentry" data-czr-model_id="post_content" data-czr-template="templates/parts/content/singular/post_content">
+      <div class="post-entry tc-content-inner">
+    <section class="post-content entry-content " >
+      <div id="tribe-events" class="tribe-no-js" data-live_ajax="1" data-datepicker_format="" data-category="" data-featured=""><div class="tribe-events-before-html"></div><span class="tribe-events-ajax-loading"><img  class="tribe-events-spinner-medium"  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="http://ieeesbcet.org/wp-content/plugins/the-events-calendar/src/resources/images/tribe-loading.gif"  alt="Loading Events" /></span>
+<div id="tribe-events-content" class="tribe-events-single">
+
+	<p class="tribe-events-back">
+		<a href="http://ieeesbcet.org/events/"> &laquo; All Events</a>
+	</p>
+
+	<!-- Notices -->
+	<div class="tribe-events-notices"><ul><li>This event has passed.</li></ul></div>
+	<h1 class="tribe-events-single-event-title">SESSION ON EMBEDDED C</h1>
+	<div class="tribe-events-schedule tribe-clearfix">
+		<h2><span class="tribe-event-date-start">August 7, 2017 @ 4:00 PM</span> - <span class="tribe-event-time">6:00 PM</span></h2>			</div>
+
+	<!-- Event header -->
+	<div id="tribe-events-header"  data-title="SESSION ON EMBEDDED C &#8211; IEEE SB CET">
+		<!-- Navigation -->
+		<h3 class="tribe-events-visuallyhidden">Event Navigation</h3>
+		<ul class="tribe-events-sub-nav">
+			<li class="tribe-events-nav-previous"><a href="http://ieeesbcet.org/event/matlab-series-session-1/"><span>&laquo;</span> MATLAB Series-Session 1</a></li>
+			<li class="tribe-events-nav-next"><a href="http://ieeesbcet.org/event/swarm-robotics-series-session-1python/">SWARM ROBOTICS SERIES SESSION 1:PYTHON <span>&raquo;</span></a></li>
+		</ul>
+		<!-- .tribe-events-sub-nav -->
+	</div>
+	<!-- #tribe-events-header -->
+
+			<div id="post-2072" class="post-2072 tribe_events type-tribe_events status-publish hentry">
+			<!-- Event featured image, but exclude link -->
+			
+			<!-- Event content -->
+			<p class="rtec-success-message tribe-events-notices">Registrations are closed for this event</p>			<div class="tribe-events-single-event-description tribe-events-content">
+							</div>
+			<!-- .tribe-events-single-event-description -->
+			<div class="tribe-events-cal-links"><a class="tribe-events-gcal tribe-events-button" href="https://www.google.com/calendar/event?action=TEMPLATE&#038;text=SESSION+ON+EMBEDDED+C&#038;dates=20170807T160000/20170807T180000&#038;details&#038;location=Sreekariyam%2C+TVM%2C+Kerala%2C+India&#038;trp=false&#038;sprop=website:http://ieeesbcet.org&#038;ctz=Asia%2FKolkata" title="Add to Google Calendar">+ Google Calendar</a><a class="tribe-events-ical tribe-events-button" href="http://ieeesbcet.org/event/session-on-embedded-c/?ical=1" title="Download .ics file" >+ iCal Export</a></div><!-- .tribe-events-cal-links -->
+			<!-- Event meta -->
+						
+	<div class="tribe-events-single-section tribe-events-event-meta primary tribe-clearfix">
+
+
+<div class="tribe-events-meta-group tribe-events-meta-group-details">
+	<h3 class="tribe-events-single-section-title"> Details </h3>
+	<dl>
+
+		
+			<dt> Date: </dt>
+			<dd>
+				<abbr class="tribe-events-abbr tribe-events-start-date published dtstart" title="2017-08-07"> August 7, 2017 </abbr>
+			</dd>
+
+			<dt> Time: </dt>
+			<dd>
+				<div class="tribe-events-abbr tribe-events-start-time published dtstart" title="2017-08-07">
+					4:00 PM - 6:00 PM				</div>
+			</dd>
+
+		
+		
+		
+		
+		
+			</dl>
+</div>
+
+<div class="tribe-events-meta-group tribe-events-meta-group-venue">
+	<h3 class="tribe-events-single-section-title"> Venue </h3>
+	<dl>
+		
+		<dd class="tribe-venue"> CET,Trivandrum </dd>
+
+					<dd class="tribe-venue-location">
+				<address class="tribe-events-address">
+					<span class="tribe-address">
+
+<span class="tribe-street-address">Sreekariyam</span>
+	
+		<br>
+		<span class="tribe-locality">TVM</span><span class="tribe-delimiter">,</span>
+
+	<abbr class="tribe-region tribe-events-abbr" title="Kerala">Kerala</abbr>
+
+
+	<span class="tribe-country-name">India</span>
+
+</span>
+
+									</address>
+			</dd>
+		
+		
+		
+			</dl>
+</div>
+
+<div class="tribe-events-meta-group tribe-events-meta-group-organizer">
+	<h3 class="tribe-events-single-section-title">Organizer</h3>
+	<dl>
+					<dt style="display:none;"></dt>
+			<dd class="tribe-organizer">
+				IEEE RAS CET			</dd>
+				</dl>
+</div>
+
+	</div>
+
+
+					</div> <!-- #post-x -->
+			
+	<!-- Event footer -->
+	<div id="tribe-events-footer">
+		<!-- Navigation -->
+		<h3 class="tribe-events-visuallyhidden">Event Navigation</h3>
+		<ul class="tribe-events-sub-nav">
+			<li class="tribe-events-nav-previous"><a href="http://ieeesbcet.org/event/matlab-series-session-1/"><span>&laquo;</span> MATLAB Series-Session 1</a></li>
+			<li class="tribe-events-nav-next"><a href="http://ieeesbcet.org/event/swarm-robotics-series-session-1python/">SWARM ROBOTICS SERIES SESSION 1:PYTHON <span>&raquo;</span></a></li>
+		</ul>
+		<!-- .tribe-events-sub-nav -->
+	</div>
+	<!-- #tribe-events-footer -->
+
+</div><!-- #tribe-events-content -->
+<div class="tribe-events-after-html"></div></div><!-- #tribe-events -->
+<!--
+This calendar is powered by The Events Calendar.
+http://m.tri.be/18wn
+-->
+      <footer class="post-footer clearfix">
+                <div class="row entry-meta justify-content-between align-items-center">
+                          </div>
+      </footer>
+    </section><!-- .entry-content -->
+  </div><!-- .post-entry -->
+  </article>                </div>
+
+                
+
+                                  <div class="col-12 singular-info-wrapper order-md-last">
+                    <section class="post-related-articles czr-carousel" data-czr-model_id="related_posts" data-czr-template="templates/parts/modules/related-posts/related_posts">
+  <header class="row flex-row">
+    <h3 class="related-posts_title col">You may also like</h3>
+          <div class="related-posts_nav col col-auto">
+        <span class="btn btn-skin-dark inverted czr-carousel-prev slider-control czr-carousel-control disabled icn-left-open-big" title="Previous related articles" tabindex="0"></span>
+        <span class="btn btn-skin-dark inverted czr-carousel-next slider-control czr-carousel-control icn-right-open-big" title="Next related articles" tabindex="0"></span>
+      </div>
+      </header>
+  <div class="row grid-container__square-mini carousel-inner">
+  <article id="post-783_related_posts" class="col-6 grid-item czr-related-post post-783 post type-post status-publish format-standard hentry category-ras tag-feat tag-ieee tag-ieeekeralasection" data-czr-model_id="related_post" data-czr-template="templates/parts/modules/related-posts/related_post">
+  <div class="grid__item flex-wrap flex-lg-nowrap flex-row">
+    <section class="tc-thumbnail entry-media__holder col-12 col-lg-6 czr__r-w1by1" data-czr-model_id="media" data-czr-template="templates/parts/content/common/media">
+  <div class="entry-media__wrapper czr__r-i js-centering">
+        <a class="bg-link" rel="bookmark" title="Permalink to:&nbsp;Inauguration of IEEE Kerala Robotics and Automation Society" href="http://ieeesbcet.org/2014/08/06/inauguration-ieee-kerala-robotics-automation-society/"></a>
+          <svg class="czr-svg-placeholder thumb-standard-empty" id="5a7a35b67d937" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+
+        <script type="text/javascript">
+          jQuery( function($){
+            $( '#5a7a35b67d937' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } );
+          });
+        </script>
+        <img class="czr-img-placeholder" src="http://ieeesbcet.org/wp-content/themes/customizr/assets//front/img/thumb-standard-empty.png" alt="Inauguration of IEEE Kerala Robotics and Automation Society" data-czr-post-id="5a7a35b67d937" />  </div>
+</section>      <section class="tc-content entry-content__holder col-12 col-lg-6 czr__r-w1by1">
+        <div class="entry-content__wrapper">
+        <header class="entry-header " data-czr-model_id="post_list_item_header_date" data-czr-template="templates/parts/content/post-lists/item-parts/headings/post_list_item_header_date">
+  <div class="entry-header-inner ">
+          <div class="entry-meta post-info">
+          Published&nbsp;<a href="http://ieeesbcet.org/2014/08/06/inauguration-ieee-kerala-robotics-automation-society/" title="Permalink to:&nbsp;Inauguration of IEEE Kerala Robotics and Automation Society" rel="bookmark"><time class="entry-date published updated" datetime="2014-08-06T17:49:16+00:00">August 6, 2014</time></a>      </div>
+        <h2 class="entry-title ">
+      <a class="czr-title" href="http://ieeesbcet.org/2014/08/06/inauguration-ieee-kerala-robotics-automation-society/" title="Permalink to Inauguration of IEEE Kerala Robotics and Automation Society" rel="bookmark">Inauguration of IEEE Kerala Robotics and Automation Society</a>
+    </h2>
+      </div>
+</header><div class="tc-content-inner entry-summary" data-czr-model_id="post_list_item_content_inner" data-czr-template="templates/parts/content/post-lists/item-parts/contents/post_list_item_content_inner" >
+  <p>&nbsp; Inauguration IEEE Kerala Robotics and Automation Society were held on 3rd August 2014 at Trivandrum. The program begins with interaction session about [&hellip;]</p>
+</div>        </div>
+      </section>
+  </div>
+</article><article id="post-226_related_posts" class="col-6 grid-item czr-related-post post-226 post type-post status-publish format-standard hentry category-c2-generalevents" data-czr-model_id="related_post" data-czr-template="templates/parts/modules/related-posts/related_post">
+  <div class="grid__item flex-wrap flex-lg-nowrap flex-row">
+    <section class="tc-thumbnail entry-media__holder col-12 col-lg-6 czr__r-w1by1" data-czr-model_id="media" data-czr-template="templates/parts/content/common/media">
+  <div class="entry-media__wrapper czr__r-i js-centering">
+        <a class="bg-link" rel="bookmark" title="Permalink to:&nbsp;BEST FRESHER 2012" href="http://ieeesbcet.org/2012/01/10/bf2012/"></a>
+          <svg class="czr-svg-placeholder thumb-standard-empty" id="5a7a35b67eb97" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M928 832q0-14-9-23t-23-9q-66 0-113 47t-47 113q0 14 9 23t23 9 23-9 9-23q0-40 28-68t68-28q14 0 23-9t9-23zm224 130q0 106-75 181t-181 75-181-75-75-181 75-181 181-75 181 75 75 181zm-1024 574h1536v-128h-1536v128zm1152-574q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm-1024-642h384v-128h-384v128zm-128 192h1536v-256h-828l-64 128h-644v128zm1664-256v1280q0 53-37.5 90.5t-90.5 37.5h-1536q-53 0-90.5-37.5t-37.5-90.5v-1280q0-53 37.5-90.5t90.5-37.5h1536q53 0 90.5 37.5t37.5 90.5z"/></svg>
+
+        <script type="text/javascript">
+          jQuery( function($){
+            $( '#5a7a35b67eb97' ).animateSvg( { svg_opacity : 0.3, filter_opacity : 0.5 } );
+          });
+        </script>
+        <img class="czr-img-placeholder" src="http://ieeesbcet.org/wp-content/themes/customizr/assets//front/img/thumb-standard-empty.png" alt="BEST FRESHER 2012" data-czr-post-id="5a7a35b67eb97" />  </div>
+</section>      <section class="tc-content entry-content__holder col-12 col-lg-6 czr__r-w1by1">
+        <div class="entry-content__wrapper">
+        <header class="entry-header " data-czr-model_id="post_list_item_header_date" data-czr-template="templates/parts/content/post-lists/item-parts/headings/post_list_item_header_date">
+  <div class="entry-header-inner ">
+          <div class="entry-meta post-info">
+          Published&nbsp;<a href="http://ieeesbcet.org/2012/01/10/bf2012/" title="Permalink to:&nbsp;BEST FRESHER 2012" rel="bookmark"><time class="entry-date published updated" datetime="2012-01-10T18:30:00+00:00">January 10, 2012</time></a>      </div>
+        <h2 class="entry-title ">
+      <a class="czr-title" href="http://ieeesbcet.org/2012/01/10/bf2012/" title="Permalink to BEST FRESHER 2012" rel="bookmark">BEST FRESHER 2012</a>
+    </h2>
+      </div>
+</header><div class="tc-content-inner entry-summary" data-czr-model_id="post_list_item_content_inner" data-czr-template="templates/parts/content/post-lists/item-parts/contents/post_list_item_content_inner" >
+  <p>  As a part of IEEE SBCET endeavour, a program for 1st year students ,”BEST FRESHER”, was conducted here at College of [&hellip;]</p>
+</div>        </div>
+      </section>
+  </div>
+</article><article id="post-1630_related_posts" class="col-6 grid-item czr-related-post post-1630 post type-post status-publish format-standard hentry category-computer-society category-events" data-czr-model_id="related_post" data-czr-template="templates/parts/modules/related-posts/related_post">
+  <div class="grid__item flex-wrap flex-lg-nowrap flex-row">
+    <section class="tc-thumbnail entry-media__holder col-12 col-lg-6 czr__r-w1by1" data-czr-model_id="media" data-czr-template="templates/parts/content/common/media">
+  <div class="entry-media__wrapper czr__r-i js-centering">
+        <a class="bg-link" rel="bookmark" title="Permalink to:&nbsp;Computer Society India Symposium 2016 (CSIS)" href="http://ieeesbcet.org/2016/02/29/computer-society-india-symposium-2016-csis/"></a>
+  <img  width="510" height="342"  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="http://ieeesbcet.org/wp-content/uploads/2016/12/pasted-image-0-1.png"  class="attachment-tc-sq-thumb tc-thumb-type-attachment czr-img" alt="" data-srcset="http://ieeesbcet.org/wp-content/uploads/2016/12/pasted-image-0-1.png 1121w, http://ieeesbcet.org/wp-content/uploads/2016/12/pasted-image-0-1-300x201.png 300w, http://ieeesbcet.org/wp-content/uploads/2016/12/pasted-image-0-1-768x515.png 768w, http://ieeesbcet.org/wp-content/uploads/2016/12/pasted-image-0-1-1024x686.png 1024w, http://ieeesbcet.org/wp-content/uploads/2016/12/pasted-image-0-1-120x80.png 120w" data-sizes="(max-width: 510px) 100vw, 510px" /><div class="post-action btn btn-skin-dark-shaded inverted"><a href="http://ieeesbcet.org/wp-content/uploads/2016/12/pasted-image-0-1.png" class="expand-img icn-expand"></a></div>  </div>
+</section>      <section class="tc-content entry-content__holder col-12 col-lg-6 czr__r-w1by1">
+        <div class="entry-content__wrapper">
+        <header class="entry-header " data-czr-model_id="post_list_item_header_date" data-czr-template="templates/parts/content/post-lists/item-parts/headings/post_list_item_header_date">
+  <div class="entry-header-inner ">
+          <div class="entry-meta post-info">
+          Published&nbsp;<a href="http://ieeesbcet.org/2016/02/29/computer-society-india-symposium-2016-csis/" title="Permalink to:&nbsp;Computer Society India Symposium 2016 (CSIS)" rel="bookmark"><time class="entry-date published updated" datetime="2016-02-29T10:07:52+00:00">February 29, 2016</time></a>      </div>
+        <h2 class="entry-title ">
+      <a class="czr-title" href="http://ieeesbcet.org/2016/02/29/computer-society-india-symposium-2016-csis/" title="Permalink to Computer Society India Symposium 2016 (CSIS)" rel="bookmark">Computer Society India Symposium 2016 (CSIS)</a>
+    </h2>
+      </div>
+</header><div class="tc-content-inner entry-summary" data-czr-model_id="post_list_item_content_inner" data-czr-template="templates/parts/content/post-lists/item-parts/contents/post_list_item_content_inner" >
+  <p>Number of participants : 233 Date : February 27-28 Organisers : IEEE Computer Society India SAC IEEE Computer Society CET Chapter IEEE [&hellip;]</p>
+</div>        </div>
+      </section>
+  </div>
+</article><article id="post-1583_related_posts" class="col-6 grid-item czr-related-post post-1583 post type-post status-publish format-standard hentry category-events category-hackathon category-sb-events" data-czr-model_id="related_post" data-czr-template="templates/parts/modules/related-posts/related_post">
+  <div class="grid__item flex-wrap flex-lg-nowrap flex-row">
+    <section class="tc-thumbnail entry-media__holder col-12 col-lg-6 czr__r-w1by1" data-czr-model_id="media" data-czr-template="templates/parts/content/common/media">
+  <div class="entry-media__wrapper czr__r-i js-centering">
+        <a class="bg-link" rel="bookmark" title="Permalink to:&nbsp;24 Hour Hackathon" href="http://ieeesbcet.org/2015/03/26/24-hour-hackathon/"></a>
+  <img  width="510" height="383"  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="http://ieeesbcet.org/wp-content/uploads/2016/12/image47.jpg"  class="attachment-tc-sq-thumb tc-thumb-type-attachment czr-img" alt="" data-srcset="http://ieeesbcet.org/wp-content/uploads/2016/12/image47.jpg 1600w, http://ieeesbcet.org/wp-content/uploads/2016/12/image47-300x225.jpg 300w, http://ieeesbcet.org/wp-content/uploads/2016/12/image47-768x576.jpg 768w, http://ieeesbcet.org/wp-content/uploads/2016/12/image47-1024x768.jpg 1024w" data-sizes="(max-width: 510px) 100vw, 510px" /><div class="post-action btn btn-skin-dark-shaded inverted"><a href="http://ieeesbcet.org/wp-content/uploads/2016/12/image47.jpg" class="expand-img icn-expand"></a></div>  </div>
+</section>      <section class="tc-content entry-content__holder col-12 col-lg-6 czr__r-w1by1">
+        <div class="entry-content__wrapper">
+        <header class="entry-header " data-czr-model_id="post_list_item_header_date" data-czr-template="templates/parts/content/post-lists/item-parts/headings/post_list_item_header_date">
+  <div class="entry-header-inner ">
+          <div class="entry-meta post-info">
+          Published&nbsp;<a href="http://ieeesbcet.org/2015/03/26/24-hour-hackathon/" title="Permalink to:&nbsp;24 Hour Hackathon" rel="bookmark"><time class="entry-date published updated" datetime="2015-03-26T08:30:12+00:00">March 26, 2015</time></a>      </div>
+        <h2 class="entry-title ">
+      <a class="czr-title" href="http://ieeesbcet.org/2015/03/26/24-hour-hackathon/" title="Permalink to 24 Hour Hackathon" rel="bookmark">24 Hour Hackathon</a>
+    </h2>
+      </div>
+</header><div class="tc-content-inner entry-summary" data-czr-model_id="post_list_item_content_inner" data-czr-template="templates/parts/content/post-lists/item-parts/contents/post_list_item_content_inner" >
+  <p>A 24 hour hackathon was held at CET starting on 26th March 2015 at 4pm. The aim of the hackathon was to [&hellip;]</p>
+</div>        </div>
+      </section>
+  </div>
+</article>  </div>
+</section>
+                  </div>
+                
+                
+            </div><!-- .column-content-wrapper -->
+
+            
+
+          </div><!-- .container -->
+
+          <div id="czr-push-footer" data-czr-model_id="footer_push" data-czr-template="templates/parts/footer/footer_push"></div>
+    </div><!-- #main-wrapper -->
+
+    
+    
+<footer id="footer" class="container-fluid footer__wrapper" data-czr-model_id="footer" data-czr-template="templates/parts/footer">
+  <div id="footer-widget-area" class="container widget__wrapper" role="complementary" data-czr-model_id="footer_widgets" data-czr-template="templates/parts/footer/footer_widgets">
+  <div class="row widget__container">
+                <div id="footer_one" class="col-md-4 col-12">
+          <aside id="text-2" class="widget widget_text"><h5 class="widget-title">About IEEE SB CET</h5>			<div class="textwidget"><p>A student&#8217;s branch of the Institute of Electrical and Electronics Engineers, USA, is functioning in the College of Engineering, Trivandrum for about three decades with a motto to create an awareness on the budding Engineers on the latest in technological innovations.</p>
+<p>ADDRESS:</p>
+<p><strong>College of Engineering ,Trivandrum</strong></p>
+<p><strong>Sreekariyam , Thiruvananthapuram</strong></p>
+<p>Mail:</p>
+<p><strong>ieeesbcet@gmail.com</strong></p>
+</div>
+		</aside>        </div>
+              <div id="footer_two" class="col-md-4 col-12">
+          <aside id="tribe-events-list-widget-5" class="widget tribe-events-list-widget"><h5 class="widget-title">Upcoming Events</h5>	<p>There are no upcoming events at this time.</p>
+</aside>        </div>
+              <div id="footer_three" class="col-md-4 col-12">
+          <aside id="search-4" class="widget widget_search"><h5 class="widget-title">Search&#8230;</h5><div class="search-form__container " data-czr-model_id="searchform" data-czr-template="templates/parts/modules/search/searchform">
+  <form action="http://ieeesbcet.org/" method="get" class="czr-form search-form">
+    <div class="form-group czr-focus">
+            <label for="s-5a7a35b682375" id="lsearch-5a7a35b682375"><span>Search</span><i class="icn-search"></i><i class="icn-close"></i></label>
+      <input id="s-5a7a35b682375" class="form-control czr-search-field" name="s" type="text" value="" aria-describedby="lsearch-5a7a35b682375" title="Search &hellip;">
+    </div>
+  </form>
+</div></aside>        </div>
+            </div>
+</div>
+<div id="colophon" class="colophon colophon__row row flex-row justify-content-between" data-czr-model_id="footer_colophon" data-czr-template="templates/parts/footer/footer_colophon">
+  <div class="col-12 col-sm-auto">
+    <div id="footer__credits" class="footer__credits" data-czr-model_id="footer_credits" data-czr-template="templates/parts/footer/footer_credits">
+  <p class="czr-copyright">
+    <span class="czr-copyright-text">&copy;&nbsp;2018&nbsp;</span><a class="czr-copyright-link" href="http://ieeesbcet.org" title="IEEE SB CET">IEEE SB CET</a><span class="czr-rights-text">&nbsp;&ndash;&nbsp;All rights reserved</span>
+  </p>
+  <p class="czr-credits">
+   
+  </p>
+</div>
+  </div>
+  </div>
+</footer>
+    </div><!-- end #tc-page-wrap -->
+
+    <section class="czr-overlay search_o">
+  <a href="#" class="search-close_btn search-toggle_btn czr-overlay-toggle_btn"><i class="icn-close"></i></a>
+  <div class="overlay-content">
+    <div class="search__wrapper">
+    <div class="search-form__container " data-czr-model_id="searchform" data-czr-template="templates/parts/modules/search/searchform">
+  <form action="http://ieeesbcet.org/" method="get" class="czr-form search-form">
+    <div class="form-group czr-focus">
+            <label for="s-5a7a35b6826f4" id="lsearch-5a7a35b6826f4"><span>Search</span><i class="icn-search"></i><i class="icn-close"></i></label>
+      <input id="s-5a7a35b6826f4" class="form-control czr-search-field" name="s" type="text" value="" aria-describedby="lsearch-5a7a35b6826f4" title="Search &hellip;">
+    </div>
+  </form>
+</div>    </div>
+  </div>
+</section><div class="btn czr-btt czr-btta right" data-czr-model_id="btt_arrow" data-czr-template="templates/parts/footer/btt_arrow"><i class="icn-up-small"></i></div>
+		<script>
+		( function ( body ) {
+			'use strict';
+			body.className = body.className.replace( /\btribe-no-js\b/, 'tribe-js' );
+		} )( document.body );
+		</script>
+		<script type='text/javascript'> /* <![CDATA[ */var tribe_l10n_datatables = {"aria":{"sort_ascending":": activate to sort column ascending","sort_descending":": activate to sort column descending"},"length_menu":"Show _MENU_ entries","empty_table":"No data available in table","info":"Showing _START_ to _END_ of _TOTAL_ entries","info_empty":"Showing 0 to 0 of 0 entries","info_filtered":"(filtered from _MAX_ total entries)","zero_records":"No matching records found","search":"Search:","all_selected_text":"All items on this page were selected. ","select_all_link":"Select all pages","clear_selection":"Clear Selection.","pagination":{"all":"All","next":"Next","previous":"Previous"},"select":{"rows":{"0":"","_":": Selected %d rows","1":": Selected 1 row"}},"datepicker":{"dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["January","February","March","April","May","June","July","August","September","October","November","December"],"nextText":"Next","prevText":"Prev","currentText":"Today","closeText":"Done"}};/* ]]> */ </script><script type='text/javascript' src='http://ieeesbcet.org/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://ieeesbcet.org/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://ieeesbcet.org/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://ieeesbcet.org/wp-includes/js/jquery/ui/draggable.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"http:\/\/ieeesbcet.org\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}},"cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://ieeesbcet.org/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.9'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var rtec = {"ajaxUrl":"http:\/\/ieeesbcet.org\/wp-admin\/admin-ajax.php","checkForDuplicates":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://ieeesbcet.org/wp-content/plugins/registrations-for-the-events-calendar/js/rtec-scripts.js?ver=2.0.2'></script>
+<script type='text/javascript' src='http://ieeesbcet.org/wp-includes/js/comment-reply.min.js?ver=4.8.5'></script>
+<script type='text/javascript' src='http://ieeesbcet.org/wp-content/themes/customizr/assets/front/js/libs/jquery-magnific-popup.min.js?ver=4.0.9'></script>
+<script type='text/javascript' src='http://ieeesbcet.org/wp-includes/js/jquery/ui/effect.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://ieeesbcet.org/wp-includes/js/wp-embed.min.js?ver=4.8.5'></script>
+<script type="text/css" id="tmpl-tribe_customizer_css">.tribe-events-list .tribe-events-loop .tribe-event-featured,
+				.tribe-events-list #tribe-events-day.tribe-events-loop .tribe-event-featured,
+				.type-tribe_events.tribe-events-photo-event.tribe-event-featured .tribe-events-photo-event-wrap,
+				.type-tribe_events.tribe-events-photo-event.tribe-event-featured .tribe-events-photo-event-wrap:hover {
+					background-color: <%= general_theme.button_bg %>;
+				}
+
+				#tribe-events-content table.tribe-events-calendar .type-tribe_events.tribe-event-featured {
+					background-color: <%= general_theme.button_bg %>;
+				}
+
+				.tribe-events-list-widget .tribe-event-featured,
+				.tribe-events-venue-widget .tribe-event-featured,
+				.tribe-mini-calendar-list-wrapper .tribe-event-featured,
+				.tribe-events-adv-list-widget .tribe-event-featured .tribe-mini-calendar-event {
+					background-color: <%= general_theme.button_bg %>;
+				}
+
+				.tribe-grid-body .tribe-event-featured.tribe-events-week-hourly-single {
+					background-color: rgba(<%= general_theme.button_bg_hex_red %>,<%= general_theme.button_bg_hex_green %>,<%= general_theme.button_bg_hex_blue %>, .7 );
+					border-color: <%= general_theme.button_bg %>;
+				}
+
+				.tribe-grid-body .tribe-event-featured.tribe-events-week-hourly-single:hover {
+					background-color: <%= general_theme.button_bg %>;
+				}
+
+				.tribe-button {
+					background-color: <%= general_theme.button_bg %>;
+					color: <%= general_theme.button_color %>;
+				}
+
+				.tribe-button:hover,
+				.tribe-button:active,
+				.tribe-button:focus {
+					background-color: <%= general_theme.button_bg_hover %>;
+				}
+
+				#tribe-events .tribe-event-featured .tribe-button:hover {
+					color: <%= general_theme.button_color_hover %>;
+				}</script><style type="text/css" id="tribe_customizer_css">.tribe-events-list .tribe-events-loop .tribe-event-featured,
+				.tribe-events-list #tribe-events-day.tribe-events-loop .tribe-event-featured,
+				.type-tribe_events.tribe-events-photo-event.tribe-event-featured .tribe-events-photo-event-wrap,
+				.type-tribe_events.tribe-events-photo-event.tribe-event-featured .tribe-events-photo-event-wrap:hover {
+					background-color: #0ea0d7;
+				}
+
+				#tribe-events-content table.tribe-events-calendar .type-tribe_events.tribe-event-featured {
+					background-color: #0ea0d7;
+				}
+
+				.tribe-events-list-widget .tribe-event-featured,
+				.tribe-events-venue-widget .tribe-event-featured,
+				.tribe-mini-calendar-list-wrapper .tribe-event-featured,
+				.tribe-events-adv-list-widget .tribe-event-featured .tribe-mini-calendar-event {
+					background-color: #0ea0d7;
+				}
+
+				.tribe-grid-body .tribe-event-featured.tribe-events-week-hourly-single {
+					background-color: rgba(14,160,215, .7 );
+					border-color: #0ea0d7;
+				}
+
+				.tribe-grid-body .tribe-event-featured.tribe-events-week-hourly-single:hover {
+					background-color: #0ea0d7;
+				}
+
+				.tribe-button {
+					background-color: #0ea0d7;
+					color: #fff;
+				}
+
+				.tribe-button:hover,
+				.tribe-button:active,
+				.tribe-button:focus {
+					background-color: #096b8f;
+				}
+
+				#tribe-events .tribe-event-featured .tribe-button:hover {
+					color: #053547;
+				}</style>  </body>
+  </html>
